@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="nav_left">
+        <a href="home.html" class="logo"><i class="fa-brands fa-linkedin"></i></a>
+        
+        <div class="searchbar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search ">
+        </div>
+
+    </div>
+    <div class="nav_center">
+        <ul>
+            <li><a href="#" class="active-link"><i class="fa-solid fa-house"></i></a>Home</li>
+            <li><a href="#"><i class="fa-solid fa-user"></i></a>My Network</li>
+            <li><a href="#"><i class="fa-solid fa-briefcase"></i></a>Jobs</li>
+            <li><a href="#"><i class="fa-solid fa-message"></i></a>Messaging</li>
+            <li><a href="#"><i class="fa-solid fa-bell"></i></a>Notification</li>
+        </ul>
+    </div>
+    <div class="nav_right">
+        <div class="online">
+
+            <img src="images/profile-1.jpeg" class="nav-profile-img" onclick="togglemenu()">
+
+        </div>
+       
+    </div>
+
+
+    <!--profile-drop-down-->
+    <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="images/profile-1.jpeg" alt="">
+               <div>  <h3>reyan</h3>
+            <a href="#">see ypour profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <i class="fa-regular fa-comments"></i>
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <i class="fa-solid fa-gear"></i>
+            <p>Setting and Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <i class="fa-solid fa-question"></i>
+            <p>Help and Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <i class="fa-solid fa-moon"></i>
+            <p>Display and Accessblity</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <i class="fa-solid fa-plug-circle-xmark"></i>
+            <p>Logout</p>
+            <span>></span>
+        </a>
+        </div>
+    </div>
+   </nav>
+
+<!--nav bar closes-->
+
+<div class="container">
+ <!-------------left sidebar------------------->
+    <div class="left-sidebar">
+        <div class="side-profile-box">
+            <img src="images/cover1.jpg" width="100%">
+            <div class="side-profile-info">
+              <img src="images/profile-1.jpeg" alt="">
+              <h1>Katherine Gorge</h1>
+              <h3>Web developer at Microsoft</h3>
+              <ul>
+                <li>Your profile views<span>52</span></li>
+                <li>Your post views<span>810</span></li>
+                <li>Your connections<span>520</span></li>
+              </ul>
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#"><i class="fa-solid items fa-bookmark"></i>My Items</a>
+                <a href="#"><i class="fa-solid preminum fa-star"></i>Try Preminum</a>
+            </div>
+        </div>
+        <div class="sidebar-activity">
+            <h3>RECENT</h3>
+            <a href="#"><i class="fa-solid fa-clock-rotate-left"></i>Web Development</a>
+            <a href="#"><i class="fa-solid fa-clock-rotate-left"></i>User Interface</a>
+            <a href="#"><i class="fa-solid fa-clock-rotate-left"></i>Online Learning</a>
+            <a href="#"><i class="fa-solid fa-clock-rotate-left"></i>Code Better</a>
+            <a href="#"><i class="fa-solid fa-clock-rotate-left"></i>Learn Online</a>
+            <a href="#"><i class="fa-solid fa-clock-rotate-left"></i>Group Learning</a>
+            <h3>GROUPS</h3>
+            <a href="#"><i class="fa-solid fa-user-group"></i>Web Design Griup</a>
+            <a href="#"><i class="fa-solid fa-user-group"></i>HTML & CSS GROUP</a>
+            <a href="#"><i class="fa-solid fa-user-group"></i>Python & JavaScript GROUP</a>
+            <a href="#"><i class="fa-solid fa-user-group"></i>Learn Online GRoup</a>
+            <h3>HASHTAGS</h3>
+            <a href="#"><i class="fa-solid fa-hashtag"></i>WebDevelopment</a>
+            <a href="#"><i class="fa-solid fa-hashtag"></i>learnOnline</a>
+            <a href="#"><i class="fa-solid fa-hashtag"></i>userinterface</a>
+            <div class="discover-more-link">
+                <a href="#">Discover More</a>
+            </div>
+        </div>
+    </div>
+    <!-------------main content ------------------->
+    <div class="main-content">
+        <div class="create-post">
+            <div class="create-post-input">
+                <img src="images/profile-1.jpeg" >
+                <textarea  rows="2" placeholder="write a post"></textarea>
+            </div>
+            <div class="create-post-links">
+                <li><i class="fa-solid fa-camera"></i>Photos</li>
+                <li><i class="fa-solid fa-video"></i>Videos</li>
+                <li><i class="fa-solid fa-file"></i>Events</li>
+                <li>post</li>
+            </div>
+        </div>
+        <div class="sort-by">
+            <hr>
+            <p>Sort by: <span>top <i class="fa-solid fa-arrow-down"></i></span></p>
+        </div>
+        <div class="post">
+            <div class="post-author">
+                <img src="images/p2.jpeg" >
+                <div>
+                    <h1>Monica Marley</h1>
+                    <small> Founder and CEO at gallelio|angel investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus velit, saepe rem blanditiis magni in officiis laudantium natus nostrum praesentium?</p>
+            <img src="images/post3.jpg" width="100%">
+            <div class="post-starts">
+                <div >
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i  id="like" class="fa-solid fa-heart"></i>
+                    <i id="clap" class="fa-solid fa-hands-clapping"></i>
+                <span class="liked-users">Abhinav Mishra and 75 others</span></div>
+            </div>
+            <hr>
+            <div>
+                <div class="post-activity">
+                   <div> <img src="images/p2.jpeg" alt="" class="post-activity-user-icon">
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>comment</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-solid fa-share"></i>
+                    <span>share</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>send</span>
+                </div>
+            </div>
+                <span>22 comments &middot; 40 share</span>
+            </div>
+
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="images/p3.jpeg" >
+                <div>
+                    <h1>Tom Dicapiro</h1>
+                    <small> Founder and CEO at gallelio|angel investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus velit, saepe rem blanditiis magni in officiis laudantium natus nostrum praesentium?</p>
+            <img src="images/post2.png" width="100%">
+            <div class="post-starts">
+                <div >
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i  id="like" class="fa-solid fa-heart"></i>
+                    <i id="clap" class="fa-solid fa-hands-clapping"></i>
+                <span class="liked-users">Abhinav Mishra and 75 others</span></div>
+            </div>
+            <hr>
+            <div>
+                <div class="post-activity">
+                   <div> <img src="images/p3.jpeg" alt="" class="post-activity-user-icon">
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>comment</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-solid fa-share"></i>
+                    <span>share</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>send</span>
+                </div>
+            </div>
+                <span>22 comments &middot; 40 share</span>
+            </div>
+
+        </div>
+        <div class="post">
+            <div class="post-author">
+                <img src="images/profile-4.jpeg" >
+                <div>
+                    <h1>Jennifer Bitt</h1>
+                    <small> Founder and CEO at gallelio|angel investor</small>
+                    <small>2 hours ago</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus velit, saepe rem blanditiis magni in officiis laudantium natus nostrum praesentium?</p>
+            <img src="images/post1.png" width="100%">
+            <div class="post-starts">
+                <div >
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i  id="like" class="fa-solid fa-heart"></i>
+                    <i id="clap" class="fa-solid fa-hands-clapping"></i>
+                <span class="liked-users">Abhinav Mishra and 75 others</span></div>
+            </div>
+            <hr>
+            <div>
+                <div class="post-activity">
+                   <div> <img src="images/profile-4.jpeg" alt="" class="post-activity-user-icon">
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>comment</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-solid fa-share"></i>
+                    <span>share</span>
+                </div>
+                <div class="post-activity-links">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>send</span>
+                </div>
+            </div>
+                <span>22 comments &middot; 40 share</span>
+            </div>
+
+        </div>
+    </div>
+  <!-------------right sidebar------------------->
+    <div class="right-sidebar">
+        <div class="slidebar-news">
+            <i id="icon-info" class="fa-solid fa-exclamation"></i>
+            <h1>trending news</h1>
+            <a href="#">hight demand for skilled manpower</a>
+        <span>id ago &middot; 10,934 reader</span>
+
+        <a href="#">Careers growing horizontally too</a>
+        <span>id ago &middot; 10,934 reader</span>
+
+        <a href="#">less work visa for US,more for UK</a>
+        <span>id ago &middot; 10,934 reader</span>
+
+        <a href="#">more hiring = higher confidence</a>
+        <span>id ago &middot; 10,934 reader</span>
+
+        <a href="#">gautam adani is the world's third richest</a>
+        <span>id ago &middot; 10,934 reader</span>
+    <a class="read-more-link" href="#">read more</a>
+    
+    
+    </div>
+
+    <div class="sidebar-ad">
+        <small>ad &middot; &middot; &middot;</small>
+        <p>Master the 5 priciples of web design</p>
+        <div>
+            <img src="images/profile-1.jpeg" >
+            <img class="xiaomi" src="images/xx.jpg" >
+
+        </div>
+        <b>Brand and Demand in Xiaomi</b>
+        <a href="#" class="ad-link">Learn More</a>
+    </div>
+
+
+    <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessblity</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy</a>
+        <a href="#">Advertisting</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+        <div class="copyright-mesg">
+            <i class="fa-brands fa-linkedin"></i>
+            <p>Linkedup &#169; 2023. All right reserved</p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
